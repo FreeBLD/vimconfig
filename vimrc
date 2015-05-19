@@ -107,6 +107,10 @@ set guifont=Ubuntu\ Mono\ 12
 colorscheme slate
 set nu
 "implement the shift-tab key to tab back in command mode
+nmap <Tab> >>
 nmap <S-Tab> <<
+"implement the tab functionality in visual mode
+vmap <Tab> >>
+vmap <S-Tab> <<
 "implement the shift-tab key to tab back in insert mode
 imap <S-Tab> <Esc><<i
