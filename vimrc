@@ -103,8 +103,8 @@ if has('langmap') && exists('+langnoremap')
   set langnoremap
 endif
 
-set guifont=Ubuntu\ Mono\ 12
-colorscheme slate
+set guifont=Droid\ Sans\ Mono\ 12
+colorscheme desert
 set nu
 "implement the shift-tab key to tab back in command mode
 nmap <Tab> >>
