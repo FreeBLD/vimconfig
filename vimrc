@@ -103,12 +103,12 @@ if has('langmap') && exists('+langnoremap')
   set langnoremap
 endif
 
-set guifont=Droid\ Sans\ Mono\ 12
+set guifont=Oxygen\ Mono\ 12
 colorscheme desert
 set nu
 "implement the shift-tab key to tab back in command mode
-nmap <Tab> >>
-nmap <S-Tab> <<
+noremap <Tab> :bn<CR>
+noremap <S-Tab> :bp<CR>
 "implement the tab functionality in visual mode
 vmap <Tab> >>
 vmap <S-Tab> <<
