@@ -106,13 +106,9 @@ if has('langmap') && exists('+langnoremap')
   set langnoremap
 endif
 
-"set the default font and color scheme
 set guifont=DejaVu\ Sans\ Mono\ Regular\ 13
 colorscheme desert
-
-"line numbers
 set nu
-
 "implement the shift-tab key to tab back in command mode
 noremap <Tab> :bn<CR>
 noremap <S-Tab> :bp<CR>
@@ -121,6 +117,3 @@ vmap <Tab> >>
 vmap <S-Tab> <<
 "implement the shift-tab key to tab back in insert mode
 imap <S-Tab> <Esc><<i
-
-"toggle javascript lint on
-set JSHintToggle
