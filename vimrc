@@ -9,6 +9,9 @@
 "  for MS-DOS and Win32:  $VIM\_vimrc
 "	    for OpenVMS:  sys$login:.vimrc
 
+call pathogen#infect()
+call pathogen#helptags()
+
 " When started as "evim", evim.vim will already have done these settings.
 if v:progname =~? "evim"
   finish
@@ -103,7 +106,7 @@ if has('langmap') && exists('+langnoremap')
   set langnoremap
 endif
 
-set guifont=Oxygen\ Mono\ 12
+set guifont=DejaVu\ Sans\ Mono\ Regular\ 13
 colorscheme desert
 set nu
 "implement the shift-tab key to tab back in command mode
