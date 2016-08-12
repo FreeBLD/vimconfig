@@ -106,9 +106,14 @@ if has('langmap') && exists('+langnoremap')
   set langnoremap
 endif
 
-set guifont=DejaVu\ Sans\ Mono\ Regular\ 13
-colorscheme desert
 set nu
+set clipboard+=unnamedplus
+set guifont=Roboto\ Mono\ Regular\ 13
+"set t_Co=256
+colo Madeofcode
+
+"Different way of defining a colourscheme
+"colorscheme CandyPaper
 "implement the shift-tab key to tab back in command mode
 noremap <Tab> :bn<CR>
 noremap <S-Tab> :bp<CR>
@@ -117,3 +122,5 @@ vmap <Tab> >>
 vmap <S-Tab> <<
 "implement the shift-tab key to tab back in insert mode
 imap <S-Tab> <Esc><<i
+"exit from terminal mode
+tnoremap <Esc> <C-\><C-n>

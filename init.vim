@@ -106,11 +106,15 @@ if has('langmap') && exists('+langnoremap')
   set langnoremap
 endif
 
-set clipboard+=unnamedplus
-set guifont=Roboto\ Mono\ Regular\ 11
-"set t_Co=256
-colo madeofcode
 set nu
+set clipboard+=unnamedplus
+set guifont=Roboto\ Mono\ Regular\ 13
+"set t_Co=256
+colo Madeofcode
+
+"Different way of defining a colourscheme
+"colorscheme CandyPaper
+
 "implement the shift-tab key to tab back in command mode
 noremap <Tab> :bn<CR>
 noremap <S-Tab> :bp<CR>
