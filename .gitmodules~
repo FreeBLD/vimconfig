@@ -1,18 +1,24 @@
-[submodule "bundle/vim-multiple-cursors"]
+[submodule "vim-multiple-cursors"]
 	path = bundle/vim-multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors.git
-[submodule "bundle/delimitMate"]
+[submodule "delimitMate"]
 	path = bundle/delimitMate
 	url = https://github.com/Raimondi/delimitMate.git
-[submodule "bundle/auto-pairs"]
+[submodule "auto-pairs"]
 	path = bundle/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs.git
-[submodule "bundle/jshint"]
+[submodule "jshint"]
 	path = bundle/jshint
 	url = https://github.com/wookiehangover/jshint.vim.git
-[submodule "colors/brighton"]
-	path = bundle/brighton
+[submodule "colors-brighton"]
+	path = bundle/colors-brighton
 	url = https://github.com/MvanDiemen/brighton.vim.git
-[submodule "colors/madeofcode"]
-	path = bundle/madeofcode
+[submodule "colors-madeofcode"]
+	path = bundle/colors-madeofcode
 	url = https://github.com/bruschill/madeofcode.git
+[submodule "colors-dracula"]
+	path = bundle/colors-dracula
+	url = https://github.com/dracula/vim.git
+[submodule "colors-lucario"]
+	path = bundle/colors-lucario
+	url = https://github.com/raphamorim/lucario.git
