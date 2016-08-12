@@ -22,3 +22,9 @@
 [submodule "colors-madeofcode"]
 	path = bundle/colors-madeofcode
 	url = https://github.com/bruschill/madeofcode.git
+[submodule "colors-lucid"]
+	path = bundle/colors-lucid
+	url = https://github.com/cseelus/vim-colors-lucid.git
+[submodule "colors-moriarty"]
+	path = bundle/colors-moriarty
+	url = https://github.com/aliou/moriarty.vim.git

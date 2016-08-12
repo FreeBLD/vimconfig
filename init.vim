@@ -110,7 +110,7 @@ set nu
 set clipboard+=unnamedplus
 set guifont=Roboto\ Mono\ Regular\ 13
 "set t_Co=256
-colo lucario
+colo moriarty
 
 "Different way of defining a colourscheme
 "colorscheme CandyPaper
