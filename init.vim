@@ -9,8 +9,8 @@
 "  for MS-DOS and Win32:  $VIM\_vimrc
 "	    for OpenVMS:  sys$login:.vimrc
 
-call pathogen#infect()
-call pathogen#helptags()
+execute pathogen#infect()
+execute pathogen#helptags()
 
 " When started as "evim", evim.vim will already have done these settings.
 if v:progname =~? "evim"
@@ -110,7 +110,7 @@ set nu
 set clipboard+=unnamedplus
 set guifont=Roboto\ Mono\ Regular\ 13
 "set t_Co=256
-colo Madeofcode
+colo lucario
 
 "Different way of defining a colourscheme
 "colorscheme CandyPaper

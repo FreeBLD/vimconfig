@@ -13,12 +13,12 @@
 [submodule "colors-brighton"]
 	path = bundle/colors-brighton
 	url = https://github.com/MvanDiemen/brighton.vim.git
+[submodule "colors-madeofcode"]
+	path = bundle/colors-madeofcode
+	url = https://github.com/bruschill/madeofcode.git
 [submodule "colors-dracula"]
 	path = bundle/colors-dracula
 	url = https://github.com/dracula/vim.git
 [submodule "colors-lucario"]
 	path = bundle/colors-lucario
 	url = https://github.com/raphamorim/lucario.git
-[submodule "colors-madeofcode"]
-	path = bundle/colors-madeofcode
-	url = https://github.com/bruschill/madeofcode.git
