@@ -106,11 +106,14 @@ if has('langmap') && exists('+langnoremap')
   set langnoremap
 endif
 
+set swapfile
+set dir=~/.cache/nvim/
+
 set nu
 set clipboard+=unnamedplus
-set guifont=Roboto\ Mono\ Regular\ 13
+set guifont=DejaVu\ Sans\ Mono\ Book\ 13
 "set t_Co=256
-colo moriarty
+colo dracula
 
 "Different way of defining a colourscheme
 "colorscheme CandyPaper
