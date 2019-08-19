@@ -24,12 +24,12 @@ set nocompatible
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
-if has("vms")
-  set nobackup		" do not keep a backup file, use versions instead
-else
-  set backup		" keep a backup file (restore to previous version)
-  set undofile		" keep an undo file (undo changes after closing)
-endif
+"if has("vms")
+set nobackup		" do not keep a backup file, use versions instead
+"else
+"  set backup		" keep a backup file (restore to previous version)
+"  set undofile		" keep an undo file (undo changes after closing)
+"endif
 set history=50		" keep 50 lines of command line history
 set ruler		" show the cursor position all the time
 set showcmd		" display incomplete commands
@@ -107,13 +107,14 @@ if has('langmap') && exists('+langnoremap')
 endif
 
 set swapfile
-set dir=~/.cache/nvim/
+set backupdir=~/.cache/nvim/
 
 set nu
 set clipboard+=unnamedplus
 set guifont=DejaVu\ Sans\ Mono\ Book\ 13
 "set t_Co=256
-colo dracula
+set termguicolors
+colo moriarty
 
 "Different way of defining a colourscheme
 "colorscheme CandyPaper
@@ -128,3 +129,9 @@ vmap <S-Tab> <<
 imap <S-Tab> <Esc><<i
 "exit from terminal mode
 tnoremap <Esc> <C-\><C-n>
+
+"Set the tab length to two spaces
+set expandtab
+set shiftwidth=2
+set softtabstop=2
+"autocmd VimEnter * NERDTree

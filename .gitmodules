@@ -28,3 +28,24 @@
 [submodule "colors-moriarty"]
 	path = bundle/colors-moriarty
 	url = https://github.com/aliou/moriarty.vim.git
+[submodule "bundle/vim-csharp"]
+	path = bundle/vim-csharp
+	url = https://github.com/OrangeT/vim-csharp.git
+[submodule "bundle/ale"]
+	path = bundle/ale
+	url = https://github.com/w0rp/ale.git
+[submodule "bundle/ts-syntax"]
+	path = bundle/ts-syntax
+	url = https://github.com/leafgarland/typescript-vim.git
+[submodule "bundle/ctrlp.vim"]
+	path = bundle/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim.git
+[submodule "bundle/NERDTree"]
+	path = bundle/NERDTree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "bundle/coc-intellisense"]
+	path = bundle/coc-intellisense
+	url = https://github.com/neoclide/coc.nvim.git
